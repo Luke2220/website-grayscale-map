@@ -30,14 +30,12 @@ nav section{
 }
 
 .main div{
-    background-color: var(--dark-gray);
     height:300px;
     width: 600px;
     grid-column: 1 / 1;
 }
 
 .newsletter{
-    background-color: var(--light-gray);
     height:300px;
     width:400px;
     grid-column-start: 2;
@@ -54,4 +52,16 @@ nav section{
     width:400px;
     display:inline-block;
     margin:0 25px;
+}
+
+.main p{
+    font-weight:400px;
+    font-size:medium;
+    font-family:"asap", fantasy;
+}
+
+.main .title{
+    font-weight:700px;
+    font-family:"Benne", serif;
+    font-size:30px;
 }
